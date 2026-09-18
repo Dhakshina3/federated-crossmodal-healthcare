@@ -1,0 +1,16 @@
+num_clients: 3
+
+image_feat_dim: 512
+clinical_feat_dim: 64
+fused_dim: 256
+
+batch_size: 32
+num_rounds: 5
+local_epochs: 1
+
+learning_rate: 0.001
+
+dp_clip_norm: 1.0
+dp_noise_multiplier: 0.5
+
+alpha_dirichlet: 0.5
